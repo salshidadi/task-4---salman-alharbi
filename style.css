@@ -5,26 +5,23 @@
 .one {
     background-color: brown;
     display: flex;
-    width: 200vh;
     height: 4vh;
     color: white;
+    justify-content: space-between;
     align-items: center;
+    padding: 5px;
 }
 
 .self {
-    display: inline-flex; 
-     gap: 10px;
-     justify-content: flex-start;
+    display: flex;
+    gap: 10px;
 }
 
 .group {
-    display: inline-flex;
-    gap: 10px;
-    justify-content: flex-end;
-    width: 200vh;
-    position: relative;
-    right: 0px;
+    display: flex;
+    gap: 10px; 
 }
+
 .two {
     display: flex;
     height: 16vh;
